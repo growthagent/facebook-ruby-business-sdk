@@ -29,7 +29,6 @@ module FacebookAds
 
     field :data, 'object'
     field :error, 'object'
-    field :omitted_results, { list: 'object' }
     field :query_id, 'string'
     field :results, { list: 'object' }
     field :status, 'string'

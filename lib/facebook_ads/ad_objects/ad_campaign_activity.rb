@@ -177,7 +177,6 @@ module FacebookAds
     field :targeting_old, 'object'
     field :updated_time_new, 'datetime'
     field :updated_time_old, 'datetime'
-    field :user, 'User'
     has_no_post
     has_no_delete
 

@@ -80,7 +80,6 @@ module FacebookAds
 
     field :id, 'string'
     field :name, 'string'
-    field :owner_business, 'Business'
     has_no_delete
 
     has_edge :assigned_users do |edge|

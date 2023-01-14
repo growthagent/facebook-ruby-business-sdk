@@ -35,13 +35,12 @@ module FacebookAds
       "comments",
       "engagement",
       "exits",
-      "follows",
+      "follows_from_impressions",
       "impressions",
       "likes",
       "navigation",
       "plays",
-      "profile_activity",
-      "profile_visits",
+      "profile_views_from_impressions",
       "reach",
       "replies",
       "saved",
@@ -49,6 +48,7 @@ module FacebookAds
       "taps_back",
       "taps_forward",
       "total_interactions",
+      "total_media_attributed_actions",
       "video_views",
     ]
 

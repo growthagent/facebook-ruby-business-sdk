@@ -90,7 +90,6 @@ module FacebookAds
     ]
 
 
-    field :omitted_results, { list: 'object' }
     field :query_id, 'string'
     field :results, { list: 'object' }
     has_no_id

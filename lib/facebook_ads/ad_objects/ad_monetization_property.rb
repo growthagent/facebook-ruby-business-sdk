@@ -27,7 +27,6 @@ module FacebookAds
 
   class AdMonetizationProperty < AdObject
 
-    field :owner_business, 'Business'
     field :id, 'string'
     has_no_post
     has_no_delete

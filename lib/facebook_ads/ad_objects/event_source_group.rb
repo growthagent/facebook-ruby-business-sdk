@@ -31,7 +31,6 @@ module FacebookAds
     field :event_sources, { list: 'ExternalEventSource' }
     field :id, 'string'
     field :name, 'string'
-    field :owner_business, 'Business'
     has_no_delete
 
     has_edge :shared_accounts do |edge|

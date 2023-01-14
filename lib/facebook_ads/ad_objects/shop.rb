@@ -30,7 +30,6 @@ module FacebookAds
     field :fb_sales_channel, 'object'
     field :id, 'string'
     field :ig_sales_channel, 'object'
-    field :workspace, 'object'
     has_no_post
     has_no_delete
 

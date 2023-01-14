@@ -35,7 +35,6 @@ module FacebookAds
     field :is_access_revoked, 'bool'
     field :is_automated_experience, 'bool'
     field :legal_entity_name, 'string'
-    field :liable_address, 'CrmAddress'
     field :liable_biz_name, 'string'
     field :max_balance, 'CurrencyAmount'
     field :online_max_balance, 'CurrencyAmount'
@@ -43,9 +42,7 @@ module FacebookAds
     field :owner_business_name, 'string'
     field :partition_from, 'string'
     field :receiving_credit_allocation_config, 'ExtendedCreditAllocationConfig'
-    field :send_bill_to_address, 'CrmAddress'
     field :send_bill_to_biz_name, 'string'
-    field :sold_to_address, 'CrmAddress'
     has_no_post
     has_no_delete
 

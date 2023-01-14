@@ -43,7 +43,6 @@ module FacebookAds
     field :name, 'string'
     field :original_height, 'int'
     field :original_width, 'int'
-    field :owner_business, 'Business'
     field :permalink_url, 'string'
     field :status, { enum: -> { STATUS }}
     field :updated_time, 'datetime'

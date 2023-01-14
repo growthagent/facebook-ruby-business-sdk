@@ -31,7 +31,6 @@ module FacebookAds
       "CHANGED_BID",
       "CHANGED_BUDGET",
       "EMAIL",
-      "ENABLE_AUTOFLOW",
       "ENDPOINT_PINGED",
       "ERROR",
       "FACEBOOK_NOTIFICATION_SENT",

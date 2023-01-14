@@ -34,7 +34,6 @@ module FacebookAds
     field :collection_hero_image, 'Photo'
     field :collection_hero_video, 'AdVideo'
     field :collection_thumbnails, { list: 'CanvasCollectionThumbnail' }
-    field :dynamic_setting, 'CanvasDynamicSetting'
     field :element_payload, 'string'
     field :elements, { list: 'RichMediaElement' }
     field :fb_body_elements, { list: 'object' }
@@ -46,7 +45,7 @@ module FacebookAds
     field :name, 'string'
     field :owner, 'Page'
     field :property_list, { list: 'string' }
-    field :source_template, 'object'
+    field :source_template, 'CanvasTemplate'
     field :store_url, 'string'
     field :style_list, { list: 'string' }
     field :tags, { list: 'string' }
